@@ -1,5 +1,3 @@
-import { saveTodos,loadTodos } from "./localStorage";
-import {filterTodos} from "./filters";
-import { FilteringType } from "./types";
-export { saveTodos, loadTodos, filterTodos};
-export type {FilteringType}
+export { saveTodos, loadTodos} from './localStorage';
+export {filterTodos} from './filters'
+export type {FilteringType} from './types'

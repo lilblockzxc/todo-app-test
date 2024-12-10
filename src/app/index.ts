@@ -1,4 +1,2 @@
-import {App} from './App';
-import { ITodo } from './interfaces';
-export { App };
-export type { ITodo };
+export { App } from './App'
+export type { ITodo } from './interfaces';
