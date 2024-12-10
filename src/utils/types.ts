@@ -1,0 +1,1 @@
+export type FilteringType = "all" | "active" | "completed";

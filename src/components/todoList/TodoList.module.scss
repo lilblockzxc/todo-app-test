@@ -1,0 +1,28 @@
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.itemText {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.noActiveTasks {
+    text-align: center;
+    color: #000000;
+    font-size: 16px;
+    margin-top: 20px;
+}

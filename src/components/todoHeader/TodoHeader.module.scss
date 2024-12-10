@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    gap: 8px;
+}
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    color:rgb(218, 132, 252);
+}
+.input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #bbb;
+}

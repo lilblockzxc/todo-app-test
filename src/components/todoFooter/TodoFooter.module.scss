@@ -1,0 +1,43 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-top: 1px solid #e6e6e6;
+    font-size: 16px;
+    color: #000000;
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+}
+
+.filter {
+    border: none;
+    background: none;
+    color: #777;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: #00aff5;
+    }
+}
+
+.active {
+    color: #4caf50; 
+    font-weight: bold;
+}
+
+.clearCompleted {
+    border: none;
+    background: none;
+    color: #777;
+    cursor: pointer;
+
+    &:hover {
+        color:red;
+        text-decoration: underline;
+    }
+}
